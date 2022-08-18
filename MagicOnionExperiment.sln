@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionClient", "src\OnionClient\OnionClient.csproj", "{C812EAA1-DAFF-4F1E-864B-B8E750E62BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Shared\Shared.csproj", "{066C3F4D-39C3-4E3F-BFF8-F6A68BB941F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionServer", "src\OnionServer\OnionServer.csproj", "{2AD957BE-414B-4854-ACA0-29559D45C8CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C812EAA1-DAFF-4F1E-864B-B8E750E62BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C812EAA1-DAFF-4F1E-864B-B8E750E62BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C812EAA1-DAFF-4F1E-864B-B8E750E62BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C812EAA1-DAFF-4F1E-864B-B8E750E62BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066C3F4D-39C3-4E3F-BFF8-F6A68BB941F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066C3F4D-39C3-4E3F-BFF8-F6A68BB941F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066C3F4D-39C3-4E3F-BFF8-F6A68BB941F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066C3F4D-39C3-4E3F-BFF8-F6A68BB941F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD957BE-414B-4854-ACA0-29559D45C8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD957BE-414B-4854-ACA0-29559D45C8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD957BE-414B-4854-ACA0-29559D45C8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD957BE-414B-4854-ACA0-29559D45C8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
