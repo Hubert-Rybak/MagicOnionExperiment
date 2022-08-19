@@ -13,14 +13,13 @@ public class TransactionService : ServiceBase<ITransactionService>, ITransaction
         for (var i = 0; i < 10; i++)
         {
             await Task.Delay(TimeSpan.FromSeconds(1));
-            
-            await stream.WriteAsync(new Transaction
-            {
-                Id = Guid.NewGuid(),
-                Amount = Decimal.Zero + i,
-                Name = $"Transaction {i}",
-                CreatedAt = DateTimeOffset.Now
-            });
+
+            await stream.WriteAsync(
+                new Transaction(
+                    Id: Guid.NewGuid(),
+                    Amount: Decimal.Zero + i,
+                    Name: $"Transaction {i}",
+                    CreatedAt: DateTimeOffset.Now));
         }
 
         return stream.Result();
